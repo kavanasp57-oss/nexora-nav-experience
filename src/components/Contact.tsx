@@ -136,7 +136,7 @@ function Field({
   id: string;
   label: string;
   value: string;
-  error?: string;
+  error?: string | undefined;
   onChange: (v: string) => void;
   type?: string;
   placeholder?: string;
